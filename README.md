@@ -29,7 +29,7 @@
     ```console
     javac -d build src/domino/*.java
     ```
- - ### Fourth Step. Run the project:
+ - ### Fourth Step: Run the project:
     ```console
     java -cp build domino.Domino
     ```
