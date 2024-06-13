@@ -50,7 +50,7 @@ public class Tile {
     }
 
     public ImageIcon getImage() {
-        String imagePath = "src" + File.separator + "domino" + File.separator + "sprites" + File.separator + this.faceUp + "-" + this.faceDown + ".png";
+        String imagePath = "src" + File.separator + "resources" + File.separator + "sprites" + File.separator + this.faceUp + "-" + this.faceDown + ".png";
         this.imageIcon = new ImageIcon(imagePath);
 
         return this.imageIcon;

@@ -12,7 +12,6 @@ public class Player extends Dominoes {
     private static int leftEndTable;
     private static int rightEndTable;
     private static boolean played = false;
-    // private static int angle = 0;
 
     public Player(String namePlayer) {
         this.namePlayer = namePlayer;
@@ -44,11 +43,11 @@ public class Player extends Dominoes {
     // }
 
     public String getNamePlayer() {
-        return namePlayer;
+        return namePlayer.toUpperCase();
     }
 
     public String getNameTeam() {
-        return team.getNameTeam();
+        return team.getNameTeam().toUpperCase();
     }
 
     public void setPlayerOnTheTeam(Team team) {
@@ -80,7 +79,7 @@ public class Player extends Dominoes {
     }
 
     public void play(JLabel tileLabel, List<Tile> tilesOnTheTable, boolean isRightTableSide) {
-        // Buscar peca na mao do usuario
+        // Buscar peca na mão do usuário
         int tileFaceUp = Integer.valueOf(tileLabel.getName().split("-")[0]);
         int tileFaceDown = Integer.valueOf(tileLabel.getName().split("-")[1]);
 
