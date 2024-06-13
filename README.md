@@ -7,9 +7,9 @@
 
 ##
 ## Technologies used:
-  - ### Java
-    - ### Swing
-    - ### AWT
+  - #### Java
+    - #### Swing
+    - #### AWT
 
 ## Prerequisites
   - **JDK**: Make sure you have the JDK installed. You can check if the JDK is installed by running `java -version` and `javac -version` in the terminal.
