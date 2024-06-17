@@ -119,7 +119,7 @@ public class DominoGUI extends Dominoes {
             selectedTileLabel = null;
             if (currentPlayer.closeOut()) {
                 int result = JOptionPane.showConfirmDialog(null,
-                    "O JOGADOR " + currentPlayer.getNamePlayer() + " BATEU! \nVITÓRIA DO TIME: " + currentPlayer.getNameTeam() + "\nVOCÊ QUER RECOMEÇAR O JOGO?",
+                    "JOGADOR(A) " + currentPlayer.getNamePlayer() + " BATEU! \nVITÓRIA DO TIME: " + currentPlayer.getNameTeam() + "\nVOCÊ QUER RECOMEÇAR O JOGO?",
                     "Domino Game",
                     JOptionPane.YES_NO_OPTION,
                     JOptionPane.INFORMATION_MESSAGE);
