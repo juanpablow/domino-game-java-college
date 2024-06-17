@@ -55,9 +55,8 @@ public class DominoGUI extends Dominoes {
         gbc.insets = new Insets(10, 10, 10, 10);
         mainPanel.add(currentPlayerLabel, gbc);
 
-        tablePanel = new JPanel(null);
+        tablePanel = new BackgroundPanel("src" + File.separator + "resources" + File.separator + "images" + File.separator + "background.jpg");
         tablePanel.setLayout(null);
-        tablePanel.setBackground(new Color(205, 133, 63));
         gbc.gridx = 0;
         gbc.gridy = 1;
         gbc.gridwidth = 3;
